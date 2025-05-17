@@ -1,0 +1,26 @@
+# DATABASE SETTINGS
+# Replace with your MongoDB connection string
+# For local MongoDB: mongodb://localhost:27017/your-database-name
+# For MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/your-database-name
+MONGODB_URI=mongodb://localhost:27017/portfolio
+
+# SERVER SETTINGS
+# Port on which the server will run
+PORT=5000
+NODE_ENV=development
+
+# JWT AUTHENTICATION SETTINGS
+# Change this to a long, random string for security
+JWT_SECRET=your-secret-key-change-this
+# How long tokens remain valid
+JWT_EXPIRE=30d
+
+# EMAIL SETTINGS (for contact form)
+# Your email service (e.g., gmail)
+EMAIL_SERVICE=gmail
+# Your email address
+EMAIL_USERNAME=your-email@gmail.com
+# Your email password or app password
+EMAIL_PASSWORD=your-password
+# The email address to receive contacts from the form
+CONTACT_EMAIL=your-email@gmail.com
